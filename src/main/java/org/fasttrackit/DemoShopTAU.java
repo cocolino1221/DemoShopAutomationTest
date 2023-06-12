@@ -23,9 +23,24 @@ public class DemoShopTAU {
         loginModal.typeInPassword(password);
 
         loginModal.clickOnTheLoginButton();
-        String greetingsMsg = "Hi Dino!";
+        String loginMsg = "Hi Dino!";
         header.expectedResult(greetingsMsg);
+
+
+// Add product to cart from homepage test.
+
+
+        demoShopPage.openPage();
+        demoShopPage.chooseAnyProductFromPage();
+        demoShopPage.addToCart();
+        header.expectedResult();
+        header.actualResult();
+
+//Check logout function
+
     }
+
+
 
 
 }
