@@ -38,6 +38,16 @@ public class DemoShopTAU {
 
 //Check logout function
 
+        demoShopPage.openPage();
+        header.clickLogoutIcon();
+        header.expectedResultLogout(greetingsMsg);
+        header.actualResultLogout(greetingsMsg);
+
+
+// Check if products are added correct to cart
+
+
+
     }
 
 

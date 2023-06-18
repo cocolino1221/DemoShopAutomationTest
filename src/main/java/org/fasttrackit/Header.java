@@ -20,4 +20,13 @@ public class Header {
     public void actualResult() {
         System.out.println("Actual result : product is added to cart and red dot appear on header cart icon");
     }
+    public void clickLogoutIcon() {
+        System.out.println("Click on the logout icon from header top right side");
+    }
+    public void expectedResultLogout(String greetingsMsg) {
+        System.out.println("Expected result : " + greetingsMsg + " appear next to the login icon");
+    }
+    public void actualResultLogout(String greetingsMsg) {
+        System.out.println("Actual result : " + greetingsMsg + "appear next to the login icon ");
+    }
 }
