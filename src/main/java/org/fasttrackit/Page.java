@@ -15,5 +15,8 @@ public class Page {
     public void addToCart() {
         System.out.println("Click on the Add to cart icon");
     }
+    public void addProductToCart() {
+        System.out.println("Add minimum two product to cart");
+    }
 }
 

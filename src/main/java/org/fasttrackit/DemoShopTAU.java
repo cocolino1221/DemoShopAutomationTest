@@ -3,6 +3,8 @@ package org.fasttrackit;
 public class DemoShopTAU {
     public static final String HOMEPAGE_URL = "https://fasttrackit-test.netlify.app/#/";
 
+    public static final String CART_URL = "https://fasttrackit-test.netlify.app/#/cart";
+
     public static void main(String[] args) {
         Page demoShopPage = new Page();
         demoShopPage.openPage();
@@ -10,9 +12,16 @@ public class DemoShopTAU {
         Header header = new Header();
         String greetingsMsg = header.getGreetingsMessage();
 
+        Cart cartPage = new Cart();
+        cartPage.openCart();
+        System.out.println("Open " + CART_URL);
+
+
+// Check Login function
         System.out.println(greetingsMsg + " message displayed in header");
 
         header.clickOnTheLoginButton();
+
 
         Modal loginModal = new Modal();
         loginModal.clickOnTheUsernameField();
@@ -44,7 +53,15 @@ public class DemoShopTAU {
         header.actualResultLogout(greetingsMsg);
 
 
-// Check if products are added correct to cart
+// Check if product price amount is calculated corectly in cart
+
+        demoShopPage.openPage();
+        demoShopPage.addProductToCart();
+        cartPage.openCart();
+        cartPage.countItemsTotal();
+        cartPage.compareTotalPrices();
+        cartPage.expectedResult();
+        cartPage.actualResult();
 
 
 
