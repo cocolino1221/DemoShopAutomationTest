@@ -16,7 +16,6 @@ public class Modal {
     public void typeInPassword(String password) {
         System.out.println("Type in : " + password);
     }
-
     public void clickOnTheLoginButton() {
         System.out.println("Click on the Login button");
     }
