@@ -8,7 +8,7 @@ public class Page {
 
     }
 
-    public void chooseAnyProductFromPage() {
+    public void chooseOneProductFromPage() {
         System.out.println("Choose any product from page");
     }
 

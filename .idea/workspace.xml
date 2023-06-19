@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5303e888-e57b-4b21-ae15-f0f9064963cc" name="Changes" comment="DemoShopTest">
-      <change afterPath="$PROJECT_DIR$/Cart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/Cart.java" afterDir="false" />
+    <list default="true" id="5303e888-e57b-4b21-ae15-f0f9064963cc" name="Changes" comment="DemoShopTest with addcto cart test, logout function and total price calculation in cart">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/ProductInCart.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/fasttrackit/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/CartPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/fasttrackit/DemoShopTAU.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/DemoShopTAU.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/fasttrackit/Header.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/Header.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/fasttrackit/Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/Page.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -115,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687082887084</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="DemoShopTest with addcto cart test, logout function and total price calculation in cart">
+      <created>1687084913218</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1687084913218</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -131,7 +140,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="DemoShopTest" />
-    <option name="LAST_COMMIT_MESSAGE" value="DemoShopTest" />
+    <MESSAGE value="DemoShopTest with addcto cart test, logout function and total price calculation in cart" />
+    <option name="LAST_COMMIT_MESSAGE" value="DemoShopTest with addcto cart test, logout function and total price calculation in cart" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

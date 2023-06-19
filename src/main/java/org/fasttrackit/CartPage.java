@@ -1,7 +1,24 @@
 package org.fasttrackit;
+import java.util.ArrayList;
+import java.util.List;
+
 import static org.fasttrackit.DemoShopTAU.CART_URL;
 
-public class Cart {
+public class CartPage {
+    private final String greetingsMessage = "How about adding some products in your cart?";
+
+    public String getGreetingsMessage() {
+        return greetingsMessage;
+    }
+    List<ProductInCart> productInCarts = new ArrayList<>();
+    public void withProduct(ProductInCart product){
+        productInCarts.add(product);
+    }
+    public List<ProductInCart> getProductInCarts(){
+        return productInCarts;
+    }
+
+
 
     public void openCart() {
         System.out.println("Open " + CART_URL);
