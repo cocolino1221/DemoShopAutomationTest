@@ -13,7 +13,7 @@ public class Product {
 
     public void addToCart() {
         //Click on the add to cart icon
-        System.out.println("Click on the add to cart icon");
+        System.out.println("Click on the add to cart icon ");
 
     }
 

@@ -1,11 +1,20 @@
 package org.fasttrackit;
 
+import com.codeborne.selenide.Selenide;
+import com.codeborne.selenide.SelenideElement;
+
+import static com.codeborne.selenide.Selenide.open;
 import static org.fasttrackit.DemoShopTAU.HOMEPAGE_URL;
 
 public class Page {
     public void openPage() {
         System.out.println("Open " + HOMEPAGE_URL);
+        open(HOMEPAGE_URL);
 
+    }
+
+    public String getTitle(){
+        return Selenide.title();
     }
 
     public void chooseOneProductFromPage() {
