@@ -14,7 +14,7 @@ import static org.fasttrackit.DemoShopTAU.CART_URL;
 public class CartPage {
     private final SelenideElement cartTitle = $(".subheader-container");
     public void cartButton() {
-        SelenideElement openCartButton = $(".navbar-nav [href='#/cart']");
+        $(".navbar-nav [href='#/cart']").click();
     }
 
     public String getCartTitle() {

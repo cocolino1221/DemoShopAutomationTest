@@ -4,17 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5303e888-e57b-4b21-ae15-f0f9064963cc" name="Changes" comment="DemoShopTest with new impolmented test and modified ones">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/fasttrackit/HomePageTest.java" afterDir="false" />
+    <list default="true" id="5303e888-e57b-4b21-ae15-f0f9064963cc" name="Changes" comment="Firsts automation tests">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/fasttrackit/CartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/CartPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/fasttrackit/DemoShopTAU.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/DemoShopTAU.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/fasttrackit/Header.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/Header.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/fasttrackit/Modal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/Modal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/fasttrackit/Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/Page.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/fasttrackit/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/fasttrackit/ProductInCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/ProductInCart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/fasttrackit/HomePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/fasttrackit/HomePageTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +61,7 @@
       <recent name="org.fasttrackit" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.HomePageTest.openCartPage">
+  <component name="RunManager" selected="TestNG.HomePageTest.checkLogoutFunction">
     <configuration name="HomePageTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Won13DemoShopTest" />
       <extension name="coverage">
@@ -85,7 +79,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomePageTest.clickOnTheLoginButton" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HomePageTest.checkLoginFunctionWithValidUsernameAndPassword" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Won13DemoShopTest" />
       <extension name="coverage">
         <pattern>
@@ -95,7 +89,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.fasttrackit" />
       <option name="MAIN_CLASS_NAME" value="org.fasttrackit.HomePageTest" />
-      <option name="METHOD_NAME" value="clickOnTheLoginButton" />
+      <option name="METHOD_NAME" value="checkLoginFunctionWithValidUsernameAndPassword" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -103,7 +97,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomePageTest.openCartPage" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HomePageTest.checkLogoutFunction" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Won13DemoShopTest" />
       <extension name="coverage">
         <pattern>
@@ -113,7 +107,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.fasttrackit" />
       <option name="MAIN_CLASS_NAME" value="org.fasttrackit.HomePageTest" />
-      <option name="METHOD_NAME" value="openCartPage" />
+      <option name="METHOD_NAME" value="checkLogoutFunction" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -121,7 +115,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomePageTest.whenOpeningDemoShopPageTitleIsDemoshop" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HomePageTest.clickOnTheLoginButtonFromHeaderToOpenTheLoginModal" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Won13DemoShopTest" />
       <extension name="coverage">
         <pattern>
@@ -131,7 +125,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.fasttrackit" />
       <option name="MAIN_CLASS_NAME" value="org.fasttrackit.HomePageTest" />
-      <option name="METHOD_NAME" value="whenOpeningDemoShopPageTitleIsDemoshop" />
+      <option name="METHOD_NAME" value="clickOnTheLoginButtonFromHeaderToOpenTheLoginModal" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -139,7 +133,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomePageTest.whenOpeningPageHelloGuestMsgIsDisplayed" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HomePageTest.openAwesomeGraniteChipsPage" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Won13DemoShopTest" />
       <extension name="coverage">
         <pattern>
@@ -149,7 +143,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.fasttrackit" />
       <option name="MAIN_CLASS_NAME" value="org.fasttrackit.HomePageTest" />
-      <option name="METHOD_NAME" value="whenOpeningPageHelloGuestMsgIsDisplayed" />
+      <option name="METHOD_NAME" value="openAwesomeGraniteChipsPage" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -159,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.HomePageTest.openCartPage" />
-        <item itemvalue="TestNG.HomePageTest.clickOnTheLoginButton" />
+        <item itemvalue="TestNG.HomePageTest.checkLogoutFunction" />
         <item itemvalue="TestNG.HomePageTest" />
-        <item itemvalue="TestNG.HomePageTest.whenOpeningDemoShopPageTitleIsDemoshop" />
-        <item itemvalue="TestNG.HomePageTest.whenOpeningPageHelloGuestMsgIsDisplayed" />
+        <item itemvalue="TestNG.HomePageTest.checkLoginFunctionWithValidUsernameAndPassword" />
+        <item itemvalue="TestNG.HomePageTest.clickOnTheLoginButtonFromHeaderToOpenTheLoginModal" />
+        <item itemvalue="TestNG.HomePageTest.openAwesomeGraniteChipsPage" />
       </list>
     </recent_temporary>
   </component>
@@ -218,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687197894035</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Firsts automation tests">
+      <created>1688558467686</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1688558467686</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -236,7 +237,8 @@
     <MESSAGE value="DemoShopTest" />
     <MESSAGE value="DemoShopTest with addcto cart test, logout function and total price calculation in cart" />
     <MESSAGE value="DemoShopTest with new impolmented test and modified ones" />
-    <option name="LAST_COMMIT_MESSAGE" value="DemoShopTest with new impolmented test and modified ones" />
+    <MESSAGE value="Firsts automation tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Firsts automation tests" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

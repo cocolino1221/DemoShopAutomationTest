@@ -3,6 +3,7 @@ package org.fasttrackit;
 import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.SelenideElement;
 
+import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
 import static org.fasttrackit.DemoShopTAU.HOMEPAGE_URL;
 
@@ -26,6 +27,10 @@ public class Page {
     }
     public void addProductToCart() {
         System.out.println("Add minimum two product to cart");
+    }
+    public SelenideElement awesomeGraniteChips(){
+      SelenideElement  awesomeGraniteChips = $("[href='#/product/1']");
+      return awesomeGraniteChips;
     }
 }
 
