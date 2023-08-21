@@ -1,13 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5303e888-e57b-4b21-ae15-f0f9064963cc" name="Changes" comment="Firsts automation tests">
+    <list default="true" id="5303e888-e57b-4b21-ae15-f0f9064963cc" name="Changes" comment="Firsts automation tests login logout">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/CheckoutPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/Footer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/OrderCompletePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/SortBarPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/SummaryOrderPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/fasttrackit/AddProductToCartTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/fasttrackit/AddProductToFav.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/fasttrackit/AuthenticationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/fasttrackit/CartPageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/fasttrackit/CheckoutPageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/fasttrackit/DataProviderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/fasttrackit/EndToEndTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/fasttrackit/SearchBarTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/fasttrackit/SortBarTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/fasttrackit/ValidationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/fasttrackit/dataprovider/DataProviderForDemoShop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/fasttrackit/dataprovider/InvalidUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/fasttrackit/dataprovider/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/fasttrackit/CartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/CartPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/fasttrackit/DemoShopTAU.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/fasttrackit/Header.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/Header.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/fasttrackit/Modal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/Modal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/fasttrackit/Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/Page.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/fasttrackit/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/fasttrackit/ProductInCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/ProductInCart.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/fasttrackit/HomePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/fasttrackit/HomePageTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,11 +61,14 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="workspaceImportEnabled" value="true" />
-      </MavenImportingSettings>
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$USER_HOME$/Downloads/apache-maven-3.9.4 2" />
+      </MavenGeneralSettings>
     </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2R6zlea8zTEcFLF4quY0XRhA24R" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -45,23 +76,53 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;build.tools&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="org.fasttrackit" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.HomePageTest.checkLogoutFunction">
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn allure:report" />
+      <command value="mvn allure:serve" />
+      <command value="mvn --check-plugin-updates" />
+      <command value="mvn --update-plugins" />
+      <command value="mvn -up" />
+      <command value="mvn --version" />
+      <command value="mvn clean" />
+      <command value="mvn clean test" />
+    </option>
+  </component>
+  <component name="RunManager" selected="TestNG.HomePageTest.whenOpeningDemoShop_PageTitleIsDemoshop">
+    <configuration name="CartPageTest.checkIfTotalAmountIsCorectlyCalculatedWithDifferentProducts" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Won13DemoShopTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.fasttrackit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.fasttrackit" />
+      <option name="MAIN_CLASS_NAME" value="org.fasttrackit.CartPageTest" />
+      <option name="METHOD_NAME" value="checkIfTotalAmountIsCorectlyCalculatedWithDifferentProducts" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HomePageTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Won13DemoShopTest" />
       <extension name="coverage">
@@ -79,7 +140,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomePageTest.checkLoginFunctionWithValidUsernameAndPassword" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HomePageTest.whenOpeningDemoShop_PageTitleIsDemoshop" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Won13DemoShopTest" />
       <extension name="coverage">
         <pattern>
@@ -89,7 +150,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.fasttrackit" />
       <option name="MAIN_CLASS_NAME" value="org.fasttrackit.HomePageTest" />
-      <option name="METHOD_NAME" value="checkLoginFunctionWithValidUsernameAndPassword" />
+      <option name="METHOD_NAME" value="whenOpeningDemoShop_PageTitleIsDemoshop" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -97,7 +158,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomePageTest.checkLogoutFunction" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HomePageTest.whenOpeningPage_HelloGuestMsgIsDisplayed" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Won13DemoShopTest" />
       <extension name="coverage">
         <pattern>
@@ -107,7 +168,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.fasttrackit" />
       <option name="MAIN_CLASS_NAME" value="org.fasttrackit.HomePageTest" />
-      <option name="METHOD_NAME" value="checkLogoutFunction" />
+      <option name="METHOD_NAME" value="whenOpeningPage_HelloGuestMsgIsDisplayed" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -115,7 +176,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomePageTest.clickOnTheLoginButtonFromHeaderToOpenTheLoginModal" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SortBarTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Won13DemoShopTest" />
       <extension name="coverage">
         <pattern>
@@ -124,27 +185,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.fasttrackit" />
-      <option name="MAIN_CLASS_NAME" value="org.fasttrackit.HomePageTest" />
-      <option name="METHOD_NAME" value="clickOnTheLoginButtonFromHeaderToOpenTheLoginModal" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HomePageTest.openAwesomeGraniteChipsPage" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Won13DemoShopTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.fasttrackit.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.fasttrackit" />
-      <option name="MAIN_CLASS_NAME" value="org.fasttrackit.HomePageTest" />
-      <option name="METHOD_NAME" value="openAwesomeGraniteChipsPage" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="MAIN_CLASS_NAME" value="org.fasttrackit.SortBarTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -153,11 +195,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.HomePageTest.checkLogoutFunction" />
+        <item itemvalue="TestNG.HomePageTest.whenOpeningDemoShop_PageTitleIsDemoshop" />
         <item itemvalue="TestNG.HomePageTest" />
-        <item itemvalue="TestNG.HomePageTest.checkLoginFunctionWithValidUsernameAndPassword" />
-        <item itemvalue="TestNG.HomePageTest.clickOnTheLoginButtonFromHeaderToOpenTheLoginModal" />
-        <item itemvalue="TestNG.HomePageTest.openAwesomeGraniteChipsPage" />
+        <item itemvalue="TestNG.HomePageTest.whenOpeningPage_HelloGuestMsgIsDisplayed" />
+        <item itemvalue="TestNG.SortBarTest" />
+        <item itemvalue="TestNG.CartPageTest.checkIfTotalAmountIsCorectlyCalculatedWithDifferentProducts" />
       </list>
     </recent_temporary>
   </component>
@@ -219,7 +261,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688558467686</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Firsts automation tests login logout">
+      <created>1688760940766</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1688760940766</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -238,7 +287,8 @@
     <MESSAGE value="DemoShopTest with addcto cart test, logout function and total price calculation in cart" />
     <MESSAGE value="DemoShopTest with new impolmented test and modified ones" />
     <MESSAGE value="Firsts automation tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Firsts automation tests" />
+    <MESSAGE value="Firsts automation tests login logout" />
+    <option name="LAST_COMMIT_MESSAGE" value="Firsts automation tests login logout" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
