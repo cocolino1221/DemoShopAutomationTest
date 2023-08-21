@@ -7,37 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5303e888-e57b-4b21-ae15-f0f9064963cc" name="Changes" comment="Firsts automation tests login logout">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/CheckoutPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/Footer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/OrderCompletePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/SortBarPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/SummaryOrderPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/fasttrackit/AddProductToCartTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/fasttrackit/AddProductToFav.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/fasttrackit/AuthenticationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/fasttrackit/CartPageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/fasttrackit/CheckoutPageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/fasttrackit/DataProviderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/fasttrackit/EndToEndTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/fasttrackit/SearchBarTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/fasttrackit/SortBarTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/fasttrackit/ValidationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/fasttrackit/dataprovider/DataProviderForDemoShop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/fasttrackit/dataprovider/InvalidUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/fasttrackit/dataprovider/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/fasttrackit/CartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/CartPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/fasttrackit/DemoShopTAU.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/fasttrackit/Header.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/Header.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/fasttrackit/Modal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/Modal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/fasttrackit/Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/Page.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/fasttrackit/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/fasttrackit/ProductInCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/ProductInCart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/fasttrackit/HomePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/fasttrackit/HomePageTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="5303e888-e57b-4b21-ae15-f0f9064963cc" name="Changes" comment="Last Version" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -268,7 +238,23 @@
       <option name="project" value="LOCAL" />
       <updated>1688760940766</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Last Version">
+      <option name="closed" value="true" />
+      <created>1692616553005</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1692616553005</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Last Version">
+      <option name="closed" value="true" />
+      <created>1692616822603</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1692616822603</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -288,7 +274,8 @@
     <MESSAGE value="DemoShopTest with new impolmented test and modified ones" />
     <MESSAGE value="Firsts automation tests" />
     <MESSAGE value="Firsts automation tests login logout" />
-    <option name="LAST_COMMIT_MESSAGE" value="Firsts automation tests login logout" />
+    <MESSAGE value="Last Version" />
+    <option name="LAST_COMMIT_MESSAGE" value="Last Version" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
