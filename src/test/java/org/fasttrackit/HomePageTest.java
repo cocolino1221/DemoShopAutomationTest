@@ -1,6 +1,7 @@
 package org.fasttrackit;
 
 
+import com.codeborne.selenide.Selenide;
 import org.fasttrackit.config.TestConfig;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeTest;
@@ -27,6 +28,7 @@ public class HomePageTest extends TestConfig {
     public void cleanUp(){
         footer.reset();
         header.homePage();
+        Selenide.refresh();
     }
     @Test
     public void whenOpeningDemoShop_PageTitleIsDemoshop() {

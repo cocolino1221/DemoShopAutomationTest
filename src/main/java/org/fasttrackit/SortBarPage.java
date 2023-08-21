@@ -10,9 +10,7 @@ public class SortBarPage {
     private final SelenideElement sortZToA = $("[value=za]");
     private final SelenideElement sortLowToHigh = $("[value=lohi]");
     private final SelenideElement sortHighToLow = $("[value=hilo]");
-    public boolean sortBarIsEnable(){
-        return sortBar.isEnabled();
-    }
+
     public void sortBarClick(){
         sortBar.click();
     }

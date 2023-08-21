@@ -6,7 +6,6 @@ import static com.codeborne.selenide.Selenide.$;
 
 public class Product {
     private final SelenideElement link;
-    private final SelenideElement parentCard;
     private final String name;
     private final String price;
     private final SelenideElement addToCartButton;
@@ -14,19 +13,40 @@ public class Product {
     private final SelenideElement deleteFavoriteProduct;
     private final SelenideElement deleteFromCart;
     private final String productId;
+    private final SelenideElement productPicture;
 
     public Product(String productId ,String name , String price) {
         this.productId = productId;
         String productLink = String.format("[href='#/product/%s']", productId);
         this.link = $(productLink);
         this.name = link.getText();
-        this.parentCard = link.parent().parent();
-        this.price = this.parentCard.$(".card-footer span").getText();
-        this.addToCartButton = this.parentCard.$(".fa-cart-plus");
-        this.addToFavButton = this.parentCard.$(".fa-heart");
-        this.deleteFavoriteProduct = this.parentCard.$(".fa-heart-broken");
-        this.deleteFromCart = this.parentCard.$(".fa-trash");
+        SelenideElement parentCard = link.parent().parent();
+        this.price = parentCard.$(".card-footer span").getText();
+        this.addToCartButton = parentCard.$(".fa-cart-plus");
+        this.addToFavButton = parentCard.$(".fa-heart");
+        this.deleteFavoriteProduct = parentCard.$(".fa-heart-broken");
+        this.deleteFromCart = parentCard.$(".fa-trash");
+        this.productPicture = parentCard.$(".card-img");
     }
+    public boolean validatePriceExist(){
+        return !this.price.isEmpty();
+    }
+    public boolean validateAddToCartButtonExist(){
+       return this.addToCartButton.isDisplayed() && this.addToCartButton.isEnabled();
+    }
+    public boolean validateAddtoFavButtonExist(){
+        return  this.addToFavButton.isDisplayed() && this.addToFavButton.isEnabled();
+    }
+    public boolean validateDeleteFromFavExist(){
+        return this.deleteFavoriteProduct.isDisplayed() && this.deleteFavoriteProduct.isEnabled();
+    }
+    public boolean validatePictureIsDisplayed(){
+        return this.productPicture.isDisplayed()&& this.productPicture.isImage();
+    }
+    public boolean validateProductTitleExist(){
+        return this.name.isEmpty();
+    }
+
 
 
     public String getProductId() {

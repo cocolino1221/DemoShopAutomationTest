@@ -7,7 +7,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5303e888-e57b-4b21-ae15-f0f9064963cc" name="Changes" comment="Last Version" />
+    <list default="true" id="5303e888-e57b-4b21-ae15-f0f9064963cc" name="Changes" comment="Last Version">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/fasttrackit/CartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/CartPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/fasttrackit/Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/Page.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/fasttrackit/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/fasttrackit/SortBarPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/SortBarPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/fasttrackit/AddProductToCartTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/fasttrackit/AddProductToCartTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/fasttrackit/AddProductToFav.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/fasttrackit/AddProductToFavTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/fasttrackit/AuthenticationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/fasttrackit/AuthenticationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/fasttrackit/CartPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/fasttrackit/CartPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/fasttrackit/CheckoutPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/fasttrackit/CheckoutPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/fasttrackit/EndToEndTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/fasttrackit/EndToEndTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/fasttrackit/HomePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/fasttrackit/HomePageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/fasttrackit/SortBarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/fasttrackit/SortBarTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/fasttrackit/ValidationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/fasttrackit/ValidationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/fasttrackit/config/TestConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/fasttrackit/config/TestConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/fasttrackit/dataprovider/DataProviderForDemoShop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/fasttrackit/dataprovider/DataProviderForDemoShop.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,6 +45,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/org/fasttrackit/Product.java" root0="SKIP_INSPECTION" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -40,23 +61,28 @@
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": -1
+}]]></component>
   <component name="ProjectId" id="2R6zlea8zTEcFLF4quY0XRhA24R" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;build.tools&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="org.fasttrackit" />
@@ -64,18 +90,22 @@
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
-      <command value="mvn allure:report" />
-      <command value="mvn allure:serve" />
       <command value="mvn --check-plugin-updates" />
-      <command value="mvn --update-plugins" />
       <command value="mvn -up" />
       <command value="mvn --version" />
-      <command value="mvn clean" />
+      <command value="mvn test" />
+      <command value="mvn site:run" />
       <command value="mvn clean test" />
+      <command value="mvn allure:report" />
+      <command value="mvn allure:serve" />
+      <command value="mvn clean" />
+      <command value="mvn allure:install" />
+      <command value="mvn --update-plugins" />
+      <command value="mvn install:install-file" />
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.HomePageTest.whenOpeningDemoShop_PageTitleIsDemoshop">
-    <configuration name="CartPageTest.checkIfTotalAmountIsCorectlyCalculatedWithDifferentProducts" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.AuthenticationTest.checkLogoutFunctionWhenLoggedInWithProductInCart">
+    <configuration name="AuthenticationTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Won13DemoShopTest" />
       <extension name="coverage">
         <pattern>
@@ -84,25 +114,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.fasttrackit" />
-      <option name="MAIN_CLASS_NAME" value="org.fasttrackit.CartPageTest" />
-      <option name="METHOD_NAME" value="checkIfTotalAmountIsCorectlyCalculatedWithDifferentProducts" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HomePageTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Won13DemoShopTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.fasttrackit.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.fasttrackit" />
-      <option name="MAIN_CLASS_NAME" value="org.fasttrackit.HomePageTest" />
+      <option name="MAIN_CLASS_NAME" value="org.fasttrackit.AuthenticationTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -110,7 +122,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomePageTest.whenOpeningDemoShop_PageTitleIsDemoshop" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AuthenticationTest.checkLogoutFunctionWhenLoggedInWithProductInCart" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Won13DemoShopTest" />
       <extension name="coverage">
         <pattern>
@@ -119,8 +131,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.fasttrackit" />
-      <option name="MAIN_CLASS_NAME" value="org.fasttrackit.HomePageTest" />
-      <option name="METHOD_NAME" value="whenOpeningDemoShop_PageTitleIsDemoshop" />
+      <option name="MAIN_CLASS_NAME" value="org.fasttrackit.AuthenticationTest" />
+      <option name="METHOD_NAME" value="checkLogoutFunctionWhenLoggedInWithProductInCart" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -128,7 +140,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomePageTest.whenOpeningPage_HelloGuestMsgIsDisplayed" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AuthenticationTest.whenClickingOnLoginButton_LoginModalIsOpened" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Won13DemoShopTest" />
       <extension name="coverage">
         <pattern>
@@ -137,8 +149,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.fasttrackit" />
-      <option name="MAIN_CLASS_NAME" value="org.fasttrackit.HomePageTest" />
-      <option name="METHOD_NAME" value="whenOpeningPage_HelloGuestMsgIsDisplayed" />
+      <option name="MAIN_CLASS_NAME" value="org.fasttrackit.AuthenticationTest" />
+      <option name="METHOD_NAME" value="whenClickingOnLoginButton_LoginModalIsOpened" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -146,7 +158,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortBarTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ValidationTest.validateThatProductImageIsDisplayed" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Won13DemoShopTest" />
       <extension name="coverage">
         <pattern>
@@ -155,8 +167,27 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.fasttrackit" />
-      <option name="MAIN_CLASS_NAME" value="org.fasttrackit.SortBarTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="org.fasttrackit.ValidationTest" />
+      <option name="METHOD_NAME" value="validateThatProductImageIsDisplayed" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ValidationTest.validateThatProductImageIsDisplayedAfterComeBackFromCartPage" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Won13DemoShopTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.fasttrackit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.fasttrackit" />
+      <option name="MAIN_CLASS_NAME" value="org.fasttrackit.ValidationTest" />
+      <option name="METHOD_NAME" value="validateThatProductImageIsDisplayedAfterComeBackFromCartPage" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -165,11 +196,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.HomePageTest.whenOpeningDemoShop_PageTitleIsDemoshop" />
-        <item itemvalue="TestNG.HomePageTest" />
-        <item itemvalue="TestNG.HomePageTest.whenOpeningPage_HelloGuestMsgIsDisplayed" />
-        <item itemvalue="TestNG.SortBarTest" />
-        <item itemvalue="TestNG.CartPageTest.checkIfTotalAmountIsCorectlyCalculatedWithDifferentProducts" />
+        <item itemvalue="TestNG.AuthenticationTest.checkLogoutFunctionWhenLoggedInWithProductInCart" />
+        <item itemvalue="TestNG.AuthenticationTest" />
+        <item itemvalue="TestNG.ValidationTest.validateThatProductImageIsDisplayedAfterComeBackFromCartPage" />
+        <item itemvalue="TestNG.ValidationTest.validateThatProductImageIsDisplayed" />
+        <item itemvalue="TestNG.AuthenticationTest.whenClickingOnLoginButton_LoginModalIsOpened" />
       </list>
     </recent_temporary>
   </component>
@@ -254,7 +285,23 @@
       <option name="project" value="LOCAL" />
       <updated>1692616822603</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Last Version">
+      <option name="closed" value="true" />
+      <created>1692617021178</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1692617021178</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Last Version">
+      <option name="closed" value="true" />
+      <created>1692617183218</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1692617183218</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

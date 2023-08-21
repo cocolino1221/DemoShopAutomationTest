@@ -54,5 +54,15 @@ public class CartPage {
     public void compareTotalPrices() {
         System.out.println("Compare total counted prices with total items prices from cart ");
     }
+    public String getTotal(Product product1, Product product2) {
+        ProductInCart productInCart = new ProductInCart(product1);
+        ProductInCart secondProductInCart = new ProductInCart(product2);
+        String firstArticlePrice = productInCart.getTotalProductPrice();
+        String secondArticlePrice = secondProductInCart.getTotalProductPrice();
+        String firstPrice = String.valueOf(firstArticlePrice.replaceAll("\\$",""));
+        String secondPrice = String.valueOf(secondArticlePrice.replaceAll("\\$",""));
+        String total = firstPrice + secondPrice;
+        return total;
+    }
 
 }
