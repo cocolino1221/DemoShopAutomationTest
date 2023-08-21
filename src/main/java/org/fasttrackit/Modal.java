@@ -1,30 +1,37 @@
 package org.fasttrackit;
 
-import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.SelenideElement;
+import io.qameta.allure.Step;
+
 
 import static com.codeborne.selenide.Selenide.$;
 
 public class Modal {
     private final SelenideElement modalTitle = $(".modal-title");
-    private final SelenideElement usernameField = $("#user-name");
+    private final SelenideElement username = $("#user-name");
+    private final SelenideElement password = $("#password");
+    private final SelenideElement modalLoginButton = $("[type=submit]");
+    private final SelenideElement error = $(".error");
 
+    @Step("Click on the username field")
     public void clickOnTheUsernameField() {
-
-        System.out.println("Click on the username field");
+        username.click();
     }
+    @Step("Type in {username}")
+    public void typeInUsername(String userName) {
+        username.setValue(userName);
 
-    public void typeInUsername(String username) {
-        System.out.println("Type in : " + username);
     }
 
     public void clickOnThePasswordField() {
-
-        System.out.println("Click on the password field");
+        password.click();
     }
 
     public void typeInPassword(String password) {
-        System.out.println("Type in : " + password);
+        this.password.setValue(password);
+    }
+    public void clickOnTheLoginButtonFromModal(){
+        modalLoginButton.click();
     }
     public void loginModal() {
         Header loginModal = new Header();
@@ -33,6 +40,9 @@ public class Modal {
 
     public String getModalTitle() {
        return modalTitle.text();
+    }
+    public String getErrorMessage(){
+        return error.text();
     }
 
 
